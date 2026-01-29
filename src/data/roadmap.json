@@ -1,0 +1,88 @@
+{
+  "modules": [
+    {
+      "id": 1,
+      "title": "Fundamentos",
+      "color": "blue",
+      "topics": [
+        { "title": "Introdução a LLMs (GPT, Claude, Llama)", "status": "published" },
+        { "title": "Anatomia de um Prompt Efetivo", "status": "published" },
+        { "title": "Tokens, Context Window e Limitações", "status": "published" },
+        { "title": "APIs: OpenAI, Anthropic, HuggingFace", "status": "in-progress" },
+        { "title": "Playground vs Produção", "status": "planned" }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Prompt Engineering",
+      "color": "coral",
+      "topics": [
+        { "title": "Few-shot Learning e Chain of Thought", "status": "published" },
+        { "title": "Structured Output (JSON, XML)", "status": "in-progress" },
+        { "title": "System Prompts e Personas", "status": "planned" },
+        { "title": "Prompt Chaining e Pipelines", "status": "planned" },
+        { "title": "Técnicas Avançadas: ReAct, Tree of Thoughts", "status": "planned" }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "RAG",
+      "color": "mint",
+      "topics": [
+        { "title": "Vector Databases (Pinecone, Weaviate, Chroma)", "status": "planned" },
+        { "title": "Embeddings: OpenAI, Sentence Transformers", "status": "planned" },
+        { "title": "Chunking Strategies", "status": "planned" },
+        { "title": "Semantic Search", "status": "planned" },
+        { "title": "Hybrid Search (keyword + semantic)", "status": "planned" }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Agentes Autônomos",
+      "color": "purple",
+      "topics": [
+        { "title": "O que é um AI Agent", "status": "planned" },
+        { "title": "Tool Calling / Function Calling", "status": "planned" },
+        { "title": "Frameworks: LangChain, LlamaIndex, CrewAI", "status": "planned" },
+        { "title": "Planning e Reasoning Loops", "status": "planned" },
+        { "title": "Multi-Agent Systems", "status": "planned" }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Vibe Coding",
+      "color": "yellow",
+      "topics": [
+        { "title": "Cursor: Setup e Workflows", "status": "planned" },
+        { "title": "Claude Code (Sonnet 4.5)", "status": "planned" },
+        { "title": "GitHub Copilot vs Cursor vs Windsurf", "status": "planned" },
+        { "title": "Pair Programming com IA", "status": "planned" },
+        { "title": "Code Review Automatizado", "status": "planned" }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Produção",
+      "color": "blue",
+      "topics": [
+        { "title": "Observability: LangSmith, Helicone", "status": "planned" },
+        { "title": "Caching Strategies", "status": "planned" },
+        { "title": "Rate Limiting e Fallbacks", "status": "planned" },
+        { "title": "Custos: Otimização de Tokens", "status": "planned" },
+        { "title": "Deploy: Vercel, Railway, Modal", "status": "planned" }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Cases Práticos",
+      "color": "coral",
+      "topics": [
+        { "title": "Chatbot com Memória Persistente", "status": "planned" },
+        { "title": "Sistema RAG para Documentação", "status": "planned" },
+        { "title": "Agente de Análise de Dados", "status": "planned" },
+        { "title": "Code Generator Personalizado", "status": "planned" },
+        { "title": "Automação de Workflows", "status": "planned" }
+      ]
+    }
+  ]
+}

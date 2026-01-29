@@ -1,0 +1,45 @@
+# AI Engineer Brasil - Robots.txt
+# Otimizado para crawlers tradicionais e bots de IA
+
+User-agent: *
+Allow: /
+
+# Bloquear parâmetros de URL inúteis para preservar Crawl Budget
+Disallow: /*?sort=
+Disallow: /*?ref=
+Disallow: /*?utm_
+Disallow: /*?fbclid=
+Disallow: /*?gclid=
+
+# Permitir bots de IA explicitamente
+User-agent: GPTBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Anthropic-AI
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Googlebot
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+# Bing
+User-agent: Bingbot
+Allow: /
+
+# Sitemap
+Sitemap: https://aiengineer.com.br/sitemap.xml

@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Engineer Brasil | Comunidade de IA Generativa</title>
+    <meta name="description" content="A comunidade brasileira de Engenheiros de IA Generativa. Aprenda a construir com LLMs, Agents e as ferramentas que estão mudando a programação. Por @eduwxyz.">
+    <meta name="keywords" content="AI Engineer, AI Engineering, IA Generativa, LLMs, GPT, Claude, Agents, RAG, Prompt Engineering, Cursor, Vibe Coding, Brasil">
+    <meta name="author" content="eduwxyz">
+    <meta name="theme-color" content="#0a0a0f">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="AI Engineer Brasil | Comunidade de IA Generativa">
+    <meta property="og:description" content="A comunidade brasileira de Engenheiros de IA Generativa. Aprenda a construir com LLMs, Agents e mais. Por @eduwxyz.">
+    <meta property="og:url" content="https://aiengineer.com.br">
+    <meta property="og:site_name" content="AI Engineer Brasil">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:image" content="https://aiengineer.com.br/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@eduwxyz">
+    <meta name="twitter:creator" content="@eduwxyz">
+    <meta name="twitter:title" content="AI Engineer Brasil | Comunidade de IA Generativa">
+    <meta name="twitter:description" content="A comunidade brasileira de Engenheiros de IA Generativa. Por @eduwxyz.">
+    <meta name="twitter:image" content="https://aiengineer.com.br/og-image.png">
+
+    <!-- Fonts - Preconnect for LCP optimization -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&family=Manrope:wght@400;500;600&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&family=Amatic+SC:wght@700&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- DNS Prefetch for external resources -->
+    <link rel="dns-prefetch" href="https://www.youtube.com">
+    <link rel="dns-prefetch" href="https://img.youtube.com">
+
+    <!-- Speculation Rules API for pre-rendering -->
+    <script type="speculationrules">
+      {
+        "prefetch": [
+          {
+            "urls": ["/trilha"],
+            "eagerness": "moderate"
+          }
+        ],
+        "prerender": [
+          {
+            "where": {
+              "and": [
+                { "href_matches": "/trilha/*" },
+                { "not": { "selector_matches": "[rel=external]" } }
+              ]
+            },
+            "eagerness": "moderate"
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

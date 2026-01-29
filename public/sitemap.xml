@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Páginas Principais -->
+  <url>
+    <loc>https://aiengineer.com.br/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://aiengineer.com.br/trilha</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Módulo: Introdução -->
+  <url>
+    <loc>https://aiengineer.com.br/trilha/introducao</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiengineer.com.br/trilha/introducao/bem-vindo</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aiengineer.com.br/trilha/introducao/o-que-e-ai-engineering</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Módulo: Fundamentos -->
+  <url>
+    <loc>https://aiengineer.com.br/trilha/fundamentos</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiengineer.com.br/trilha/fundamentos/o-que-sao-llms</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aiengineer.com.br/trilha/fundamentos/tokens-e-contexto</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aiengineer.com.br/trilha/fundamentos/como-modelos-pensam</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Módulo: Modelos & APIs -->
+  <url>
+    <loc>https://aiengineer.com.br/trilha/modelos-apis</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiengineer.com.br/trilha/modelos-apis/openai</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aiengineer.com.br/trilha/modelos-apis/claude</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aiengineer.com.br/trilha/modelos-apis/modelos-open-source</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Módulo: Prompt Engineering -->
+  <url>
+    <loc>https://aiengineer.com.br/trilha/prompt-engineering</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiengineer.com.br/trilha/prompt-engineering/anatomia-prompt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aiengineer.com.br/trilha/prompt-engineering/few-shot-learning</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aiengineer.com.br/trilha/prompt-engineering/chain-of-thought</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Módulo: RAG -->
+  <url>
+    <loc>https://aiengineer.com.br/trilha/rag</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiengineer.com.br/trilha/rag/o-que-e-rag</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aiengineer.com.br/trilha/rag/embeddings</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aiengineer.com.br/trilha/rag/vector-databases</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aiengineer.com.br/trilha/rag/chunking</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Módulo: AI Agents -->
+  <url>
+    <loc>https://aiengineer.com.br/trilha/ai-agents</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiengineer.com.br/trilha/ai-agents/o-que-sao-agents</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aiengineer.com.br/trilha/ai-agents/tool-use</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aiengineer.com.br/trilha/ai-agents/react-pattern</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aiengineer.com.br/trilha/ai-agents/multi-agent</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Módulo: Dev Tools -->
+  <url>
+    <loc>https://aiengineer.com.br/trilha/dev-tools</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiengineer.com.br/trilha/dev-tools/cursor</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aiengineer.com.br/trilha/dev-tools/claude-code</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aiengineer.com.br/trilha/dev-tools/vibe-coding</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Módulo: Produção -->
+  <url>
+    <loc>https://aiengineer.com.br/trilha/producao</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiengineer.com.br/trilha/producao/arquitetura</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aiengineer.com.br/trilha/producao/caching</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aiengineer.com.br/trilha/producao/observability</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aiengineer.com.br/trilha/producao/custos</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>

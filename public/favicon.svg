@@ -1,0 +1,11 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="16" cy="16" r="15" fill="#2563FF"/>
+
+  <!-- A letter -->
+  <path d="M8 24L13 8H15L20 24H17.5L16.5 21H11.5L10.5 24H8ZM12.2 18.5H15.8L14 12.5L12.2 18.5Z" fill="white"/>
+
+  <!-- I letter with dot -->
+  <rect x="21" y="11" width="3" height="13" rx="1" fill="white"/>
+  <circle cx="22.5" cy="8.5" r="1.8" fill="#FF6B5A"/>
+</svg>

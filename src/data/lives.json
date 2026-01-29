@@ -1,0 +1,44 @@
+{
+  "lives": [
+    {
+      "id": 1,
+      "date": "2025-01-15",
+      "title": "Building GPT Wrappers - Mito ou Realidade?",
+      "summary": "Discutimos quando faz sentido criar um wrapper em cima de APIs de LLM, arquitetura de produto AI, e como diferenciar sua solução além do prompt.",
+      "tags": ["produto", "arquitetura", "llms"],
+      "videoUrl": "https://youtube.com/@eduwxyz"
+    },
+    {
+      "id": 2,
+      "date": "2025-01-22",
+      "title": "RAG na Prática - Do Zero à Produção",
+      "summary": "Implementamos um sistema RAG completo ao vivo: chunking, embeddings, vector store, e integração com GPT-4. Código disponível no GitHub.",
+      "tags": ["rag", "hands-on", "vector-db"],
+      "videoUrl": "https://youtube.com/@eduwxyz"
+    },
+    {
+      "id": 3,
+      "date": "2025-01-29",
+      "title": "Cursor Deep Dive - Produtividade 10x",
+      "summary": "Exploramos features avançadas do Cursor: composer mode, @-mentions, regras customizadas, e como configurar para máxima performance.",
+      "tags": ["vibe-coding", "cursor", "produtividade"],
+      "videoUrl": "https://youtube.com/@eduwxyz"
+    },
+    {
+      "id": 4,
+      "date": "2025-02-05",
+      "title": "Multi-Agent Systems com CrewAI",
+      "summary": "Construímos um time de agentes que colaboram: researcher, writer, reviewer. Vimos quando usar single vs multi-agent.",
+      "tags": ["agents", "crewai", "automação"],
+      "videoUrl": "https://youtube.com/@eduwxyz"
+    },
+    {
+      "id": 5,
+      "date": "2025-02-12",
+      "title": "Observability em AI Apps",
+      "summary": "Como debugar aplicações não-determinísticas. Tools: LangSmith tracing, prompt versioning, A/B testing de prompts.",
+      "tags": ["observability", "debugging", "produção"],
+      "videoUrl": "https://youtube.com/@eduwxyz"
+    }
+  ]
+}
