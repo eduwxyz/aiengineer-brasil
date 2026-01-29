@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet-async';
 const SITE_NAME = 'AI Engineer Brasil';
 const SITE_URL = 'https://aiengineer.com.br';
 const DEFAULT_DESCRIPTION = 'A comunidade brasileira de AI Engineering. Aprenda a construir com LLMs, Agents, RAG e as ferramentas que estão mudando a programação.';
-const TWITTER_HANDLE = '@eduwxyz';
+const TWITTER_HANDLE = '@eduwxyz_';
 const DEFAULT_OG_IMAGE = `${SITE_URL}/og-image.png`;
 
 function SEO({
@@ -36,11 +36,11 @@ function SEO({
     founder: {
       '@type': 'Person',
       name: 'eduwxyz',
-      url: 'https://twitter.com/eduwxyz'
+      url: 'https://twitter.com/eduwxyz_'
     },
     sameAs: [
       'https://youtube.com/@eduwxyz',
-      'https://twitter.com/eduwxyz',
+      'https://twitter.com/eduwxyz_',
       'https://github.com/eduwxyz'
     ]
   };
@@ -79,7 +79,7 @@ function SEO({
     author: {
       '@type': 'Person',
       name: 'eduwxyz',
-      url: 'https://twitter.com/eduwxyz'
+      url: 'https://twitter.com/eduwxyz_'
     },
     publisher: {
       '@type': 'Organization',

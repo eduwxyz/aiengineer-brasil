@@ -282,7 +282,7 @@ function Home() {
                   <div className="flex gap-3 justify-center md:justify-start">
                     {[
                       { icon: 'youtube', href: 'https://youtube.com/@eduwxyz' },
-                      { icon: 'twitter', href: 'https://twitter.com/eduwxyz' },
+                      { icon: 'twitter', href: 'https://twitter.com/eduwxyz_' },
                       { icon: 'github', href: 'https://github.com/eduwxyz' }
                     ].map((link, i) => (
                       <a

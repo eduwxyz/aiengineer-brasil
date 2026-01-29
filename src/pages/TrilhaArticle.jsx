@@ -6,11 +6,12 @@ import remarkGfm from 'remark-gfm';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { oneDark } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import { getModule, getArticle, getAdjacentArticles } from '../data/modules';
-import { articleContent } from '../data/articleContent';
+import { articleContent } from '../content';
 import Icon from '../components/Icon';
 import TrilhaSidebar from '../components/trilha/TrilhaSidebar';
 import YouTubeEmbed from '../components/trilha/YouTubeEmbed';
 import FlowStack from '../components/trilha/FlowStack';
+import ExcalidrawDiagram from '../components/trilha/ExcalidrawDiagram';
 import SEO from '../components/SEO';
 
 function TrilhaArticle() {
@@ -136,6 +137,11 @@ function TrilhaArticle() {
                     code({ node, inline, className, children, ...props }) {
                       const match = /language-(\w+)/.exec(className || '');
                       const content = String(children).replace(/\n$/, '');
+
+                      // Check if it's an Excalidraw diagram
+                      if (!inline && match && match[1] === 'excalidraw') {
+                        return <ExcalidrawDiagram data={content} />;
+                      }
 
                       // Check if it's a flow/stack diagram (contains ↓ arrows and no language)
                       if (!inline && !match && content.includes('↓')) {

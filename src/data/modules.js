@@ -54,6 +54,20 @@ export const modules = [
         description: 'O processo de geração de texto e inferência em LLMs',
         keyword: 'inferência llm geração texto',
         order: 3
+      },
+      {
+        slug: 'limitacoes-alucinacoes',
+        title: 'Limitações e Alucinações',
+        description: 'Onde LLMs erram e como lidar com isso',
+        keyword: 'alucinações llm limitações erros',
+        order: 4
+      },
+      {
+        slug: 'tools-function-calling',
+        title: 'Tools e Function Calling',
+        description: 'Como dar ferramentas para LLMs usarem',
+        keyword: 'function calling tools ferramentas llm',
+        order: 5
       }
     ]
   },

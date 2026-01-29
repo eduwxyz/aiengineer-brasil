@@ -32,7 +32,7 @@ function Layout({ children }) {
                 Trilha
               </Link>
               <a
-                href="https://twitter.com/eduwxyz"
+                href="https://twitter.com/eduwxyz_"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
@@ -65,7 +65,7 @@ function Layout({ children }) {
             <div className="flex gap-3">
               {[
                 { icon: 'youtube', href: 'https://youtube.com/@eduwxyz', label: 'YouTube' },
-                { icon: 'twitter', href: 'https://twitter.com/eduwxyz', label: 'Twitter' },
+                { icon: 'twitter', href: 'https://twitter.com/eduwxyz_', label: 'Twitter' },
                 { icon: 'github', href: 'https://github.com/eduwxyz', label: 'GitHub' }
               ].map((link, i) => (
                 <a
